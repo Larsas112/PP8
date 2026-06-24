@@ -221,6 +221,7 @@ Da eine Anwendereingabe unkontrollierbar ist. Es ist außerdem einfacher Große 
 #### Reflection Question
 
 * **What is the difference between redirecting to stdin and explicitly opening a file with `fopen`?**
+  Durch das öffnen der Datei mit fopen, besteht die möglichkeit auch den Text/die Datei zu durchsuchen, mit der redirecting funktion wird des komplette Text oder zuvor festgelegte Text bereich ausgegeben.
 
 ---
 
@@ -411,6 +412,7 @@ Da eine Anwendereingabe unkontrollierbar ist. Es ist außerdem einfacher Große 
 #### Reflection Question
 
 * **Explain in your own words what the encryption and decryption processes are doing in both ciphers.**
+  was genau die asymetrische verschlüsselung bewirkt hat kann ich nicht genau nachvolziehen, allerdings konnte ich heraussehen, dass in die verschlüsselte datei mit der verbesserten Verschlüsselung viel mehr symbole verwendet (sonderzeichen und Zahlen), es werden "untypische" Zeilenumbrüche gemacht. Bei der einfachen Verschlüsselung hingegeben, wurden auch keine Zahlenverschlüsselt. Die einzelnen Buchstaben wurden gegen ander ausgetauscht.
 
 ---
 
