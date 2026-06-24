@@ -1,0 +1,1 @@
+This is a sample Text with hopefully more than 256 digits, so i can see wether or not the programm is limited to the buffsize or not, just decreasing the buff size in the original programm would be a little bit easy so i thought i am doing it my way. Sorry.
