@@ -134,7 +134,9 @@ In this exercise you will:
 #### Reflection Questions
 
 1. **How do you pass a file name to a program using the `-i` and `-o` options?**
-2. **What are typical use cases for parameters versus flags? How do the differ from one another?**
+   Zunächst muss in dem Funktionsaufruf definirt sein, wie viele bzw was für (Datentyp) beim Aufruf übergeben werden kann/soll. Damit die möglichen Parameter nicht leer sind werden sie zunächst mit "Null" definiert, einem neutralen Wert. Die Zuweisung von Input-Datei zu `-i` erfolgt erst in der definierung der Whileschleife in der getopt funktion.
+3. **What are typical use cases for parameters versus flags? How do the differ from one another?**
+   Parameter werden eher für größere komplexe programme mit mehreren einzel werten, die verarbeitet werden. Die flag überzeugt dahingegen bei wenigen eingabewerten, durch einfacheren Syntax.
 
 ---
 
@@ -187,6 +189,7 @@ In this exercise you will:
 #### Reflection Question
 
 * **Why is a run-to-completion (batch) approach often preferable to interactive input?**
+Da eine Anwendereingabe unkontrollierbar ist. Es ist außerdem einfacher Große Datensätze oder immer die gleiche Eingabe über abgespeicherte Dateien ein zu geben.
 
 ---
 
